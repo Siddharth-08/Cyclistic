@@ -116,3 +116,5 @@ cyclistic_tableau <- cyclistic_tableau %>%  #remove columns not needed: start_st
 
 #download the new data as a .csv file
 fwrite(cyclistic_tableau,"cyclistic_data.csv")
+
+write.csv(cyclistic_tableau, ""C:\Users\rsidd\OneDrive\Desktop\\cyclistic_tableau.csv", row.names=FALSE)
